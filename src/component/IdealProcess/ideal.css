@@ -1,0 +1,140 @@
+.service-wrapper {
+    height: 721px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+    padding: 5% 0%;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.services-text > .main-text {
+    font-size: 48px;
+}
+
+.services-text > .sub-text {
+    font-size: 20px;
+}
+
+/* CARDS STYLES */
+
+.services-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.services-cards > .cards {
+    width: 33.33%;
+}
+
+.services-cards > .cards > .cards-img {
+    height: 295px;
+}
+
+.services-cards > .cards > .card-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 66px 20px 20px;
+    gap: 20px;
+    color: #fff;
+}
+
+.services-cards > .cards > .card-texts > .major-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: max-content;
+}
+
+.big-text {
+    font-size: 24px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+
+
+/* -----------MOBILE RESPONSIVENESS---------- */
+
+@media (max-width: 768px) {
+    .service-wrapper {
+    height: max-content !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+    padding: 25% 8% !important;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.services-text > .main-text {
+    font-size: 36px !important;
+}
+
+.services-text > .sub-text {
+    font-size: 18px !important;
+}
+
+/* CARDS STYLES */
+
+.services-cards {
+    display: flex;
+    gap: 20px;
+    width: 90vw;
+    flex-direction: column;
+}
+
+.services-cards > .cards {
+    width: 100% !important;
+}
+
+.services-cards > .cards > .cards-img {
+    width: 100%;
+    height: max-content;
+}
+
+.services-cards > .cards > .cards-img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.services-cards > .cards > .card-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 66px 20px 20px;
+    gap: 20px;
+    color: #fff;
+}
+
+.services-cards > .cards > .card-texts > .major-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.big-text {
+    font-size: 24px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+}

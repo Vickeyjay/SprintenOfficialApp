@@ -1,0 +1,201 @@
+.clients-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.clients-cover {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    text-align: center;
+}
+
+
+.clients-main-text {
+    font-size: 40px;
+    color: #fff;
+}
+
+.clients-sub-text {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.clients-carousel-container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.clients-carousel {
+    position: relative;
+    width: 900px;
+    height: 70%;
+    background: linear-gradient(to bottom right, #2F9C9633 70%, #AFFFC9,#AFFFC9, transparent 150%);
+    border: 2px solid;
+
+    border-image-source: linear-gradient(108.05deg, #AFFFC9 3.45%, rgba(175, 255, 201, 0) 18.12%, rgba(175, 255, 201, 0) 51.63%, rgba(175, 255, 201, 0) 81.54%, #ADFFC6 98.9%);
+
+
+    border-radius: 20px;
+    text-align: start;
+    padding: 75px 112px;
+    backdrop-filter: initial;
+}
+
+.apostrophe-image {
+    width: 103.815673828125px;
+    height: 75.9249038696289px;
+    position: absolute;
+    top: -35.2px;
+    left: 38.97px;
+}
+
+.clients-contents {
+    /* background-color: #fff; */
+    height: 272.52001953125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clinets-logo-container span img {
+    width: 166.46083068847656px;
+    height: 50.52015686035156px;
+}
+
+.clients-texts {
+    font-size: 20px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #24EFC533;
+    padding: 10px 0px;
+}
+
+.clients-person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clients-person > span img {
+    width: 31.562744140625px;
+}
+
+.clients-person .person-text {
+    color: #FFFFFF;
+}
+
+.clients-container img {
+    object-fit: contain;
+}
+
+
+
+/* ------------MOBILE RESPONSIVENESS----------- */
+
+@media (max-width: 768px) {
+    .clients-container {
+    
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 10% 0px;
+}
+
+.clients-cover {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    text-align: center;
+}
+
+.clients-texts-container {
+    line-height: 20px;
+}
+
+
+.clients-main-text {
+    font-size: 18.55px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.clients-sub-text {
+    font-size: 12.28px;
+    color: #FFFFFF;
+}
+
+.clients-carousel-container {
+    width: 70vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.clients-carousel {
+    position: relative;
+    width: 80% !important;
+    height: 164.07557678222656px;
+    background: linear-gradient(to bottom right, #2F9C9633 70%, #AFFFC9,#AFFFC9, transparent 150%);
+    border: 2px solid;
+
+    border-image-source: linear-gradient(108.05deg, #AFFFC9 3.45%, rgba(175, 255, 201, 0) 18.12%, rgba(175, 255, 201, 0) 51.63%, rgba(175, 255, 201, 0) 81.54%, #ADFFC6 98.9%);
+
+
+    border-radius: 20px;
+    text-align: start;
+    padding: 16.37px 40.75px;
+    backdrop-filter: initial;
+}
+
+.apostrophe-image {
+    width: 37.768550872802734px;
+    height: 27.62177848815918px;
+    position: absolute;
+    top: -12.81px;
+    left: 14.18px;
+}
+
+.clients-contents {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.clinets-logo-container span img {
+    width: 60.55910873413086px;
+    height: 18.379432678222656px;
+}
+
+.clients-texts {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.clients-person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clients-person > span img {
+    width: 21.562744140625px;
+}
+
+.clients-person .person-text {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.clients-container img {
+    object-fit: contain;
+}
+}

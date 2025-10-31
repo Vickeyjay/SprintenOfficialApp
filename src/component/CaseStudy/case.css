@@ -1,0 +1,160 @@
+.case-container {
+    padding: 70px 93.37px 0px 60px;
+    color: #fff;
+}
+
+.mini-case-cover {
+    height: max-content;
+    border-top: 1px solid #CEFAD7;
+    padding: 10px 0px;
+}
+
+.mini-case {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+}
+
+.mini-card-2 {
+    padding: 30px 0px;
+
+}
+
+.left-case-content {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.case-img-container img {
+    width: 430px;
+    object-fit: fill;
+}
+ 
+.right-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-icon {
+    width: 166.46083068847656px;
+    height: 50.52015686035156px;
+}
+
+.right-main-text {
+    font-size: 32px;
+}
+
+.right-sub-text {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.right-content > .right-btn {
+    display: flex;
+    gap: 30px;
+}
+
+.right-content > .right-btn > button {
+    border: unset;
+    padding: 10px 26px;
+    background: #CEFAD7;
+    color: #091E1D;
+}
+
+
+
+/* ----------MOBILE RESPONSIVEVESS----------- */
+
+
+@media (max-width:768px) {
+.case-container {
+    padding: 70px 15px 0px 15px;
+    color: #fff;
+}
+
+.mini-case-cover {
+    height: max-content;
+    border-top: 1px solid #CEFAD7;
+    padding: 10px 0px;
+}
+
+.mini-case {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.mini-card-2 {
+    padding: 30px 0px;
+
+}
+
+.left-case-content {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.case-img-container img {
+    width: 90%;
+    object-fit: fill;
+}
+ 
+.right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-icon {
+    width: 111.97179412841797px;
+    height: 50.52015686035156px;
+}
+
+.right-icon img {
+    object-fit: contain;
+}
+
+.right-main-text {
+    font-size: 21.53px;
+}
+
+.right-sub-text {
+    font-size: 13.45px;
+    line-height: 150%;
+}
+
+.right-content > .right-btn {
+    display: flex;
+    gap: 30px;
+}
+
+.right-content > .right-btn > button {
+    border: unset;
+    font-size: 10.76px !important;
+    padding: 10px 26px;
+    background: #CEFAD7;
+    color: #091E1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.arrow-icon {
+    font-size: 15px;
+}
+}

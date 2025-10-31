@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PolySans Trial;
+    background: #010303;
+    font-family: "PolySans Trial", sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    overflow-x: hidden;
+}

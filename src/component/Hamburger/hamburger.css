@@ -1,0 +1,95 @@
+.hamburger-btn {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Sidebar container */
+
+.hamburger-sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 280px;
+  background-color: #000000F2;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1100;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: left 0.3s ease;
+}
+
+.hamburger-sidebar.open {
+  left: 0;
+}
+
+/* Header section */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-logo {
+  width: 120px;
+}
+
+/* Search + History */
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-top: 15%;
+}
+
+.history-list li a {
+  color: #777;
+  font-size: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Footer Profile */
+.profile-footer {
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid #f2f2f2;
+  padding-top: 10px;
+}
+
+.profile-footer img {
+  width: 120px;
+  height: 30px;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+}
+
+/* Responsive trigger */
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block;
+    float: right;
+    width: max-content;
+    margin-left: 0px;
+  }
+}
