@@ -2,11 +2,11 @@
 import { motion } from "framer-motion";
 
 const container = {
-  hidden: { opacity: 0.7 },
+  hidden: { opacity: 0 },
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.35, // delay between each child
+      staggerChildren: 0.05, // delay between each child
       delayChildren: 0.15,   // wait before starting
       ease: "easeOut",
     },
@@ -14,12 +14,12 @@ const container = {
 };
 
 const item = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0.8, y: 20 },
   show: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.9,
+      duration: 0.5,
       ease: [0.12, 1, 0.16, 0.5], // smooth ease-out cubic
     },
   },
