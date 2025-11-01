@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { X } from "lucide-react";
 import "./hamburger.css";
-import FadeIn from "../AnimatedFadeIn/animated-fade-in";
+// import FadeIn from "../AnimatedFadeIn/animated-fade-in";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +40,6 @@ const HamburgerMenu = () => {
 
   return (
     <>
-      <FadeIn>
         {/* Hamburger Button */}
         <button className="hamburger-btn" onClick={() => setIsOpen(true)}>
           ☰
@@ -78,7 +77,6 @@ const HamburgerMenu = () => {
 
         {/* Background Overlay */}
         {isOpen && <div className="overlay show" onClick={() => setIsOpen(false)}></div>}
-      </FadeIn>
     </>
   );
 };

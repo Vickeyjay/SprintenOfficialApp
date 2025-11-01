@@ -1,10 +1,9 @@
 import './banner.css'
-import FadeIn from "../AnimatedFadeIn/animated-fade-in";
+// import FadeIn from "../AnimatedFadeIn/animated-fade-in";
 
 const Banner = () => {
     return ( 
         <>
-        <FadeIn>
              <div className="banner-container">
                     <span className="img-ban-1"><img src="./images/lightening-1.png" alt="" /></span>
                     <div className="banner-contents">
@@ -25,7 +24,6 @@ const Banner = () => {
                     <span className="img-ban-2"><img src="./images/lightening-2.png" alt="" /></span>
                     
                 </div>
-        </FadeIn>
                
         </>
      );

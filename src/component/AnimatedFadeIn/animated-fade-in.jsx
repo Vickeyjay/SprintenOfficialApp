@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 const container = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0.7 },
   show: {
     opacity: 1,
     transition: {
@@ -14,13 +14,13 @@ const container = {
 };
 
 const item = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.9,
-      ease: [0.22, 1, 0.36, 1], // smooth ease-out cubic
+      ease: [0.12, 1, 0.16, 0.5], // smooth ease-out cubic
     },
   },
 };
