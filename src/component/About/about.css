@@ -55,6 +55,11 @@
     border: .55px solid #CEFAD7;
 }
 
+.right-content > .right-btn > .btn-2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 
 /* ---------------MOBILE RESPONSIVENESS----------------*/

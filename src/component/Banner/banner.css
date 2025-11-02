@@ -44,11 +44,12 @@
     opacity: 50%;
 }
 
-.btn-container .btn {
+.btn-container .btn a {
     border: none;
     background-color: #CEFAD7;
     color: #091E1D;
     padding: 10px 26px;
+    text-decoration: none;
 }
 
 

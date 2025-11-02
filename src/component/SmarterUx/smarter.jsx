@@ -20,7 +20,7 @@ const SmarterUx = () => {
                     </div>
 
                     <div className="btn-container">
-                        <button className="btn">Book a Call with TOC</button></div>
+                        <button className="btn"><a href="https://cal.com/sprinten">Book a Call with TOC</a></button></div>
                     </div>
 
                     <span className="img-ban-2"><img src="./images/lightening-2.png" alt="" /></span>

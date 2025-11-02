@@ -55,15 +55,24 @@
     padding: 10px 26px;
 }
 
+.btn-cta-container > .btn-1 a {
+    color: #091E1D;
+    text-decoration: none;
+}
+
 .btn-cta-container > .btn-1 {
     background-color:#CEFAD7;
-    color: #091E1D;
+
 }
 
 .btn-cta-container > .btn-2 {
     background-color: #BFF1EE1A;
-    color: #ffffff;
     border: 1px solid #CEFAD7;
+}
+
+.btn-cta-container > .btn-2 a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .brand-container {

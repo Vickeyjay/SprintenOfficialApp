@@ -37,8 +37,8 @@ const HeroPage = () => {
                             </div>
                         </div>
                         <div className="btn-cta-container">
-                            <button className="btn-1">Book a call</button>
-                            <button className="btn-2">View our Service</button>
+                            <button className="btn-1"><a href="https://cal.com/sprinten">Book a call</a></button>
+                            <button className="btn-2"><a href="#">View our Service</a></button>
                         </div>
                     </div>
                     <div className="brand-container">

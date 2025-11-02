@@ -15,7 +15,7 @@ const IdealProcess = () => {
                         <span>A fast, structured approach that keeps you moving. From first idea to final handoff, we <br />design with clarity, speed, and impact. No fluff, no delays.</span>
                     </div>
                     <div className="btn-container">
-                        <button className="btn">Book a Call with TOC</button>
+                        <button className="btn"><a href="https://cal.com/sprinten">Book a Call with TOC</a></button>
                     </div>
                 </div>
                     

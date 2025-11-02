@@ -27,7 +27,7 @@ const About = () => {
 
                         <div className="right-btn">
                             <button className="btn-1">View Our Case studies</button>
-                            <button className="btn-2">Follow Us on X</button>
+                            <button className="btn-2"><a href="https://x.com/Sprint3n">Follow Us on X</a></button>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const About = () => {
 
                         <div className="right-btn">
                             <button className="btn-1">View Our Case studies</button>
-                            <button className="btn-2">Follow Us on X</button>
+                            <button className="btn-2"><a href="https://x.com/Sprint3n">Follow Us on X</a></button>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const About = () => {
 
                         <div className="right-btn">
                             <button className="btn-1">View Our Case studies</button>
-                            <button className="btn-2">Follow Us on X</button>
+                            <button className="btn-2"><a href="https://x.com/Sprint3n">Follow Us on X</a></button>
                         </div>
                     </div>
                 </div>
