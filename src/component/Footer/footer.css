@@ -32,6 +32,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    position: relative;
 }
 
 .footer-link-container > div > span > a{
@@ -42,14 +43,16 @@
 }
 
 .footer-image {
-    width: 1340px;
-    height: 100%;
+    width: 1040px;
+    height: 50px;
 }
 
 .footer-image img {
     margin-top: 3%;
-    object-fit: contain;
-    width: 120%;
+    object-fit: fill;
+    width: 90%;
+    height: 40%;
+    position: absolute;
 }
 
 
@@ -113,6 +116,7 @@
 .footer-image img {
     margin-top: 3%;
     object-fit: fill;
-    width: 100%;
+    width: 90%;
+    height: 10%;
 }
 }
