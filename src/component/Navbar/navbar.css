@@ -47,9 +47,54 @@ ul li > a {
     font-weight: 400;
 }
 
+
+/* --- Hover + Active link animation --- */
+
+.link-container ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px;
+  font-family: "PolySans Trial", sans-serif;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.link-container ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #CEFAD7;
+  transition: width 0.3s ease;
+}
+
+.link-container ul li a:hover {
+  color: #CEFAD7;
+}
+
+.link-container ul li a:hover::after {
+  width: 100%;
+}
+
+/* Active link based on scroll */
+.link-container ul li a.active {
+  color: #CEFAD7;
+}
+
+.link-container ul li a.active::after {
+  width: 100%;
+}
+
+
 .hamburger-wrapper {
     display: none;
 }
+
+
 
 
 
@@ -76,6 +121,7 @@ ul li > a {
     padding: 8px 20px 8px 0px;
     overflow-x: hidden;
 }
+
 
 
     .hamburger-wrapper  {

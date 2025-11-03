@@ -7,6 +7,17 @@ body {
     font-family: "PolySans Trial", sans-serif;
 }
 
+button {
+    transition: 0.4s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.09;
+    transition: 0.4s ease-in-out;
+}
+
 * {
     scroll-behavior: smooth;
+    /* outline: 1px solid red; */
 }

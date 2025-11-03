@@ -1,12 +1,12 @@
 .clients-container {
-    height: 70vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
-    padding-top: 160px;
+    padding-top: 60px;
 }
 
 .clients-cover {
-    height: 30vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 83px;
@@ -93,6 +93,9 @@
     object-fit: contain;
 }
 
+.clients-carousel.client-2 {
+  background: #A2F7B40D;
+}
 
 
 /* ------------MOBILE RESPONSIVENESS----------- */
@@ -103,7 +106,7 @@
     height: max-content;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 120px;
     margin: 10% 0px;
 }
 
@@ -199,3 +202,29 @@
     object-fit: contain;
 }
 }
+
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border: 1px solid #afffc9;
+  color: #afffc9;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: #afffc915;
+}
+

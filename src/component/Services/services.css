@@ -34,8 +34,14 @@
     width: 33.33%;
 }
 
+.services-cards > .cards > .cards-img:hover {
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+
 .services-cards > .cards > .cards-img {
     height: 295px;
+    transition: 0.4s ease-in-out;
 }
 
 .services-cards > .cards > .card-texts {
